@@ -1,0 +1,13 @@
+/* 
+    Created on : Aug 3, 2016, 12:20:01 PM
+    Author     : vyadav
+*/
+
+#content{
+    background-color: #e7e7e7;
+    height: 87%;
+}
+
+li.inav{
+    width: max-content;
+}

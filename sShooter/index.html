@@ -1,0 +1,51 @@
+<html ng-app="app">
+    <head>
+        <title>Angular JS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<link href="bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>-->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="Styles.css" rel="stylesheet" type="text/css"/>
+        
+    </head>
+    <body>
+            <nav class="navbar navbar-default navbar-fixed-top" id="mynav">
+                <div class="container-fluid" style="padding-top: 5px;padding-bottom: 5px;">
+                    <div class="navbar-header col-sm-3" style="padding-left: 5px;vertical-align: central"> 
+                        <a href="#" class="navbar-brand"><h1>Angular JS</h1></a>
+                        <button type="buton" class="navbar-toggle" data-toggle="collapse" data-target="#navcol">
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div id="navcol" class="collapse navbar-collapse">
+                        <div class="col-sm-5">
+                        <ul class="nav navbar-pills nav-justified">
+                            <li id ="l1"><a href="#" onclick="document.getElementById('INAPP').style.display='block'"><h3>Space Shooter</h3></a></li>
+<!--                            <li><a href="#"><h3>Link2</h3></a></li>
+                            <li><a href="#"><h3>Link3</h3></a></li>
+                            <li><a href="#"><h3>Link4</h3></a></li>-->
+                        </ul>
+                        </div>
+                        <div class="col-sm-4">
+                        <ul class="nav navbar-pills navbar-right" style="padding-right: 15px;">
+                           <li><a href="#" onclick="document.getElementById('LOGIN').style.display='block'"><h3><span class="glyphicon glyphicon-user">_LogIN</span></h3></a></li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        <div class="container-fluid" id="content">
+            
+            <main-fr></main-fr>
+            
+        </div>
+        <in-app></in-app>
+        <log-in></log-in>
+        
+        <script src="jquery-3.1.0.min.js" type="text/javascript"></script>
+        <script src="bootstrap-3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="angular.js"></script>
+        <script src="custom-app/module.js" type="text/javascript"></script>
+        <script src="CScript.js" type="text/javascript"></script>
+    </body>
+</html>
