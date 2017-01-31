@@ -1,0 +1,19 @@
+<style>
+    #cc_can{
+        background-color: #c9e2b3;
+        height: 100%;
+        width: 100%;
+        border-style: solid;
+        z-index: 0;
+    }
+    
+    #id{
+        position: absolute;
+        top: 0;
+        z-index: 1;
+    }
+</style>
+<div>
+    <canvas ng-mousemove="{{balls.onmousemove($event)}}" id="ballcanvas" ng-click="{{balls.exhaust()}}">Not supported</canvas>
+<!--<button id="exhaust" class="btn-danger" ng-click="balls.exhaust();">Exhaust</button>-->
+</div>
